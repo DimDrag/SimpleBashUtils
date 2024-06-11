@@ -27,20 +27,20 @@ This is my implementation of cat and grep utilities
 | No. | Options | Description |
 | ------ | ------ | ------ |
 | 1 | -e | pattern |
-| 2 | -i | Ignore uppercase vs. lowercase.  |
-| 3 | -v | Invert match. |
-| 4 | -c | Output count of matching lines only. |
-| 5 | -l | Output matching files only.  |
-| 6 | -n | Precede each matching line with a line number. |
-| 7 | -h | Output matching lines without preceding them by file names. |
-| 8 | -s | Suppress error messages about nonexistent or unreadable files. |
-| 9 | -f file | Take regexes from a file. |
-| 10 | -o | Output the matched parts of a matching line. |
+| 2 | -i | Ignore uppercase vs. lowercase  |
+| 3 | -v | Invert match |
+| 4 | -c | Output count of matching lines only |
+| 5 | -l | Output matching files only  |
+| 6 | -n | Precede each matching line with a line number |
+| 7 | -h | Output matching lines without preceding them by file names |
+| 8 | -s | Suppress error messages about nonexistent or unreadable files |
+| 9 | -f file | Take regexes from a file |
+| 10 | -o | Output the matched parts of a matching line |
 
 
 ## More info
 
-- Both programs are developed in C language of C11 standard using gcc compiler.
+- Both programs are developed in C language of C11 standard using gcc compiler
 - Program code follows Google style
 - Grep supports flag pair combinations
 - Input via stdin is not supported
